@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="/jspm_packages/system.js"></script>
+    <script src="/config.js"></script>
+</head>
+<body>
+    <a onclick="window.open('configuration.html', 'config_window')">open configuration</a>
+    <canvas id="display"></display>
+
+    <script>
+        System.import('styles.scss!');
+        System.import('src/main').then(function(bootstrap) {
+        });
+    </script>
+</body>
+</html>

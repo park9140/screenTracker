@@ -1,0 +1,14 @@
+
+<video id="webcam" style="display:none;"></video>
+<div >
+    <canvas id="canvas"></canvas>
+    <div id="no_rtc" class="alert alert-error" class="hide"></div>
+    <select id="source" ></select>
+    <div id="log" class="alert alert-info"></div>
+</div>
+<script src="src/dat-gui.js"></script>
+<script>
+    window.opener.bootstrapConfigurator(document);
+    window.opener.System.import('styles.scss!');
+    new dat.GUI()
+</script>

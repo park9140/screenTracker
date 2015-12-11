@@ -1,0 +1,14 @@
+{
+  "jspm": {
+    "dependencies": {
+      "inspirit/jsfeat": "github:inspirit/jsfeat@^0.0.8",
+      "scss": "github:theefer/plugin-sass@master"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  },
+  "dependencies": {
+    "jspm": "^0.16.15"
+  }
+}
